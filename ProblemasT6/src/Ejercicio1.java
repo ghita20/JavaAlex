@@ -10,6 +10,8 @@ public class Ejercicio1 {
 
 		for(int i=0;i<20;i++)
 			x[i]=-10+rnd.nextInt(21);
+		
+		System.out.println((int)(+Math.random()*10));
 
 		imprimirArray(x);
 
